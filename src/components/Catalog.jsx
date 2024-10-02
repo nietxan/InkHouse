@@ -13,7 +13,7 @@ const Catalog = function (id) {
     const [catalog, setCatalog] = useState(null);
 
     useEffect(() => {
-            fetch(`http://98.82.67.118:4173/${currentCatalog}`).
+            fetch(`http://98.82.67.118:80/${currentCatalog}`).
             then(res => res.json()).
             then((data) => setCatalog(data))
 
