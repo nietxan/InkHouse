@@ -8,7 +8,7 @@ const CatalogItem = function ({ item ,handleClick ,isClicked}) {
             className={'p-5 bg-pale-grey flex flex-col smart-cell'}
         >
             <div className={'mb-[15px] bg-pale-grey'}>
-                <img src={`http://98.82.67.118:80${item.image}`} alt={item.name}/>
+                <img src={`http://98.82.67.118${item.image}`} alt={item.name}/>
             </div>
             <div className={'basic-text text-stone-grey mb-2.5'}>{item.author}</div>
             <h3 className={'text-primary-black mb-2.5 text-2xl'}>{item.name}</h3>
